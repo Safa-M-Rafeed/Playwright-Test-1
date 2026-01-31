@@ -6,7 +6,7 @@ export default defineConfig({
   use: {
     baseURL: 'https://tamil.changathi.com/',
     headless: false,
-    video: 'on',                    // ← VIDEOS ALWAYS!
+    video: 'on',                   
     screenshot: 'only-on-failure',
     trace: 'on-first-retry',
     launchOptions: { slowMo: 300 },

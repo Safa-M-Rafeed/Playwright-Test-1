@@ -2,16 +2,16 @@ import { test, expect } from '@playwright/test';
 
 const negativeInputs = [
   'Eduvala',
-  'eeyi atha konjam thavan',      // Your slang (no proper Tamil expected)
-  'Riyal Dinar 8.30 PM May 05',   // Currency + numbers + date (no Tamil)
-  'xyz123@#$%',                   // Complete garbage
-  '11111 22222 33333',            // Numbers only
-  'a1b2c3d4e5f6',                 // Alphanumeric gibberish
-  '!!!???@@@###',                 // Symbols only
-  '.........----------',          // Special characters
-  'tamiltamilenglishmixed',       // Nonsense words
-  'empty',                        // Single nonsense word
-  '$$$$$$$%%%%%%%%%%%%%%%%'       // Money symbols + percent
+  'eeyi atha konjam thavan',      
+  'Riyal Dinar 8.30 PM May 05',   
+  'xyz123@#$%',                   
+  '11111 22222 33333',            
+  'a1b2c3d4e5f6',                 
+  '!!!???@@@###',                
+  '.........----------',          
+  'tamiltamilenglishmixed',       
+  'empty',                        
+  '$$$$$$$%%%%%%%%%%%%%%%%'       
 ];
 
 negativeInputs.forEach((input, index) => {
